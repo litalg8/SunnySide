@@ -549,7 +549,7 @@ footer .footer-logo{
     .header-container .main-nav .nav-items {
       position: absolute;
       float: right;
-      top: 15%;
+      top: 9%;
       width: 16rem;
       right: 0;
       margin-right: 2rem;
@@ -571,27 +571,13 @@ footer .footer-logo{
       padding-right: 0.7rem;
       border-radius: 3px;
       background-color: white;
-      -webkit-box-shadow: 0 0 10px rgba(121, 118, 118, 0.9);
-      box-shadow: 0 0 10px rgba(121, 118, 118, 0.9);
       visibility: hidden;
     }
     .header-container .main-nav .nav-items__active {
       visibility: visible;
     }
-    .header-container .main-nav .nav-items::after {
-      position: absolute;
-      content: "";
-      height: 0px;
-      width: 0px;
-      border-bottom: 35px solid white;
-      border-left: 35px solid transparent;
-      border-right: 35px solid transparent;
-      background-color: transparent;
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      right: -6.9%;
-      top: -4.1%;
-    }
+    /* .header-container .main-nav .nav-items::after { */
+  
     .header-container .main-nav .nav-items li {
       margin-bottom: 1.5rem;
       -webkit-transition: unset;
